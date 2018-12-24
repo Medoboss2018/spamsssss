@@ -7,8 +7,6 @@ client.on('ready', () => {
 
 var ServerID = "526697815678648331"; 
 var ChannelID = "526697919542460416";
-const Discord = require('discord.js');
-const client = new Discord.Client();
 
 client.on('warn', console.warn);
 
