@@ -1,6 +1,6 @@
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`الشيء الي تبيه`,)
+client.user.setGame(`Hi Friend`,)
   console.log('')
   console.log('')
   console.log('╔[═════════════════════════════════════════════════════════════════]╗')
