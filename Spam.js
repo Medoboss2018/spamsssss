@@ -32,18 +32,6 @@ function timerFunc() {
 var timer = setTimeout(timerFunc, 0.5000);
 
 client.on('message', msg => {
-  if (msg.content === '#Cre') {
-    msg.reply('#credit');
-  }
-});
-
-client.on('message', msg => {
-  if (msg.content === '#Cres') {
-    msg.reply('#credit <@<@439393453332234243> 10000');
-  }
-});
-
-client.on('message', msg => {
   if (msg.content === '#Cress') {
     msg.reply('#daily');
   }
